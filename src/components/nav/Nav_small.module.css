@@ -1,0 +1,17 @@
+.nav_small {
+	background-color: #161616;
+	color: #b1b1b1;
+	/* color: #404040; */
+	font-size: 1.2rem;
+	padding: 0.5%;
+	text-align: right;
+}
+
+.nav_small:hover {
+	color: #f3f3f3;
+	cursor: pointer;
+}
+
+.nav_small p {
+	margin: 0;
+}

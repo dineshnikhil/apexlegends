@@ -1,0 +1,35 @@
+.legends_home_intro_div {
+	background-image: url('../../assets/images/backgrounds/bg-red.jpg');
+	background-size: cover;
+	color: var(--milk_white);
+
+	height: 50vh;
+	padding: 5% 0;
+	text-align: center;
+}
+
+.legends_home_intro_div img {
+	display: block;
+	margin: 0 auto;
+}
+
+.legends_home_intro_div h2 {
+	font-size: 4rem;
+}
+
+.legends_home_intro_div p {
+	font-size: 1.7rem;
+	width: 50%;
+	margin: 0 auto;
+	letter-spacing: 1.5;
+}
+
+.legends_home_cards_div {
+	height: 50vh;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+	/* padding: 4%; */
+}

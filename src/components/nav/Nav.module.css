@@ -1,0 +1,29 @@
+.nav_div {
+	background-color: var(--black);
+	color: var(--milk_white);
+	padding: 0.8% 3%;
+
+	display: flex;
+	justify-content: space-between;
+
+	position: sticky;
+	top: 0%;
+	/* width: 95%; */
+}
+
+.nav_left_part {
+	display: flex;
+	/* justify-content: space-between; */
+	width: 80%;
+}
+
+.nav_right_part {
+	width: 20%;
+}
+
+.nav_links_div {
+	display: flex;
+	width: 65%;
+	/* justify-content: space-around; */
+	margin-left: 2%;
+}

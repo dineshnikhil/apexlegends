@@ -1,0 +1,45 @@
+.legend_card {
+	width: 23%;
+	text-align: center;
+	margin: 3% 1%;
+}
+
+.legend_card h3 {
+	font-size: 1.8rem;
+	font-weight: lighter;
+	letter-spacing: 1.3px;
+	margin-bottom: 0;
+}
+
+.legend_card h4 {
+	font-size: 1.4rem;
+	font-weight: lighter;
+	letter-spacing: 1.3px;
+	margin-top: 2%;
+	margin-bottom: 7%;
+	color: rgb(58, 58, 58);
+}
+
+.legend_card img {
+	width: 90%;
+	height: auto;
+}
+
+.legend_card button {
+	background-color: transparent;
+	width: 3rem;
+	height: 3rem;
+	border: 2px solid var(--black);
+	border-radius: 50%;
+
+	font-size: 1.4rem;
+	transition: 0.3s ease-in-out;
+}
+
+.legend_card button:hover {
+	/* color: red; */
+	cursor: pointer;
+	width: 4rem;
+	height: 4rem;
+	font-size: 1.6rem;
+}

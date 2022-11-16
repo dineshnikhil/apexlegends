@@ -1,0 +1,14 @@
+.nav_link {
+	color: var(--milk_white);
+	display: block;
+
+	margin: 0 1.5%;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 1.5rem;
+	padding: 1% 0;
+}
+
+.nav_link:hover {
+	color: var(--red);
+}
