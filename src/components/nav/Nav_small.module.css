@@ -7,7 +7,12 @@
 	text-align: right;
 }
 
-.nav_small:hover {
+.nav_small a {
+	margin-right: 2%;
+	color: #b1b1b1;
+}
+
+.nav_small a:hover {
 	color: #f3f3f3;
 	cursor: pointer;
 }

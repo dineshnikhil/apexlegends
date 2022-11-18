@@ -8,8 +8,12 @@ import { faQuestion } from '@fortawesome/free-solid-svg-icons';
 function Nav_small() {
 	return (
 		<nav className={classes.nav_small}>
-			<FontAwesomeIcon icon={faUser} />
-			<FontAwesomeIcon icon={faQuestion} />
+			<a href="#">
+				<FontAwesomeIcon icon={faUser} />
+			</a>
+			<a href="#">
+				<FontAwesomeIcon icon={faQuestion} />
+			</a>
 		</nav>
 	);
 }

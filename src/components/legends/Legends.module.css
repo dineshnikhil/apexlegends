@@ -25,7 +25,7 @@
 }
 
 .legends_home_cards_div {
-	height: 50vh;
+	/* height: 50vh; */
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
