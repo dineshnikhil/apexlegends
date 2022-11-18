@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/apexlegends/static/css/main.b989db97.css",
-    "main.js": "/apexlegends/static/js/main.18f9dc6d.js",
+    "main.css": "/apexlegends/static/css/main.c2419fef.css",
+    "main.js": "/apexlegends/static/js/main.82bde66a.js",
     "static/js/787.0c097ad6.chunk.js": "/apexlegends/static/js/787.0c097ad6.chunk.js",
     "static/media/revenant.png": "/apexlegends/static/media/revenant.603a422d62c1f6f98d7e.png",
     "static/media/maggie.png": "/apexlegends/static/media/maggie.2e027d3bdeb7ea0356e3.png",
@@ -27,15 +27,19 @@
     "static/media/lifeline.png": "/apexlegends/static/media/lifeline.f50f47e947e1dcd16bc5.png",
     "static/media/wraith.png": "/apexlegends/static/media/wraith.50586f295966ce76c449.png",
     "static/media/one.png": "/apexlegends/static/media/one.5d0cee10b623eff5ef21.png",
+    "static/media/apex-esrb.svg": "/apexlegends/static/media/apex-esrb.8ed53b71115be4fcdf9e51049a02a853.svg",
+    "static/media/apex-global-series.svg": "/apexlegends/static/media/apex-global-series.60c05e0549a03ed41fe9a59e29c499f3.svg",
+    "static/media/ea-ring.png": "/apexlegends/static/media/ea-ring.c957d708c2e16033ff10.png",
+    "static/media/apex-mobile.svg": "/apexlegends/static/media/apex-mobile.1e681deb2ea8cfce59d2f95972708a96.svg",
     "static/media/apex_nav_logo.svg": "/apexlegends/static/media/apex_nav_logo.dc669086fc967f9aa9385c91b0369107.svg",
     "static/media/apex-white-icon.svg": "/apexlegends/static/media/apex-white-icon.07c3f6cbc8de4da7040fac1d390b9483.svg",
     "index.html": "/apexlegends/index.html",
-    "main.b989db97.css.map": "/apexlegends/static/css/main.b989db97.css.map",
-    "main.18f9dc6d.js.map": "/apexlegends/static/js/main.18f9dc6d.js.map",
+    "main.c2419fef.css.map": "/apexlegends/static/css/main.c2419fef.css.map",
+    "main.82bde66a.js.map": "/apexlegends/static/js/main.82bde66a.js.map",
     "787.0c097ad6.chunk.js.map": "/apexlegends/static/js/787.0c097ad6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b989db97.css",
-    "static/js/main.18f9dc6d.js"
+    "static/css/main.c2419fef.css",
+    "static/js/main.82bde66a.js"
   ]
 }
