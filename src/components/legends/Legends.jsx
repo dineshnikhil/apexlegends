@@ -11,7 +11,7 @@ import bloodhound from '../../assets/images/legends_cards/bloodhound.png';
 import catalyst from '../../assets/images/legends_cards/catalyst.png';
 import caustic from '../../assets/images/legends_cards/caustic.png';
 import fuse from '../../assets/images/legends_cards/fuse.png';
-import one from '../../assets/images/legends_cards/one.png';
+import ash from '../../assets/images/legends_cards/one.png';
 import gibraltar from '../../assets/images/legends_cards/gibraltar.png';
 import horizon from '../../assets/images/legends_cards/horizon.png';
 import lifeline from '../../assets/images/legends_cards/lifeline.png';
@@ -34,7 +34,7 @@ function Legends() {
 	var lenagend_image_arr = [
 		{
 			name: 'Ash',
-			img: one,
+			img: ash,
 			tag: 'Incisive Instigator',
 		},
 		{

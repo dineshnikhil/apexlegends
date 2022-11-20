@@ -76,6 +76,15 @@ function Footer() {
 			link: '#',
 		},
 	];
+
+	var footer_second_links_arr = [
+		'BROWSE GAMES',
+		'ABOUT',
+		'SUPPORT',
+		'SHOP ON EA APP',
+		'ACCESSIBILITY',
+	];
+
 	return (
 		<div>
 			<div className={classes.nav_first_div}>
@@ -107,7 +116,17 @@ function Footer() {
 				</div>
 			</div>
 			<div className={classes.nav_second_div}>
-				<img src={ea_ring} alt="parent company logo" />
+				<div className={classes.nav_second_one}>
+					<img src={ea_ring} alt="parent company logo" />
+				</div>
+				<div className={classes.nav_second_two}>
+					<div>
+						{footer_second_links_arr.map((link) => (
+							<a href="#">{link}</a>
+						))}
+					</div>
+				</div>
+				<div className={classes.nav_second_three}></div>
 			</div>
 		</div>
 	);

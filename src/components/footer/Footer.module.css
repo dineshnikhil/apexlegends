@@ -76,4 +76,32 @@
 
 .nav_second_div {
 	background-color: var(--footer_white);
+	padding: 3% 12%;
+	display: flex;
+}
+
+.nav_second_one {
+	width: 5%;
+}
+
+.nav_second_one img {
+	width: 100%;
+	height: auto;
+}
+
+.nav_second_two {
+	width: 65%;
+	padding-left: 3%;
+}
+
+.nav_second_two a {
+	text-decoration: none;
+	color: var(--gray);
+	font-size: 1.5rem;
+
+	margin-right: 5%;
+}
+
+.nav_second_three {
+	width: 30%;
 }
