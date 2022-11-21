@@ -125,8 +125,15 @@ function Footer() {
 							<a href="#">{link}</a>
 						))}
 					</div>
+					<div className={classes.nav_second_two_two}>
+						<p>Legal & Privacy User Agreement</p>
+						<p>Privacy & Cookie Policy (Your Privacy Rights)</p>
+						<h3>© 2022 Electronic Arts Inc.</h3>
+					</div>
 				</div>
-				<div className={classes.nav_second_three}></div>
+				<div className={classes.nav_second_three}>
+					<button>Language united-kingdom</button>
+				</div>
 			</div>
 		</div>
 	);

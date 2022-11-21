@@ -102,6 +102,39 @@
 	margin-right: 5%;
 }
 
+.nav_second_two p {
+	font-size: 1.3rem;
+	font-weight: lighter;
+	color: var(--gray);
+	margin: 0;
+}
+
+.nav_second_two_two h3 {
+	font-size: 1.25rem;
+	font-weight: lighter;
+	color: var(--gray);
+	letter-spacing: 1px;
+}
+
+.nav_second_two_two {
+	margin-top: 8%;
+}
+
 .nav_second_three {
 	width: 30%;
+}
+
+.nav_second_three button {
+	padding: 4% 6%;
+	border: 2px solid var(--gray);
+	outline: 2px solid var(--footer_white);
+	color: var(--gray);
+	font-size: 1.1rem;
+	transition: 0.3s ease-in-out;
+}
+
+.nav_second_three button:hover {
+	border: 4px solid var(--footer_white);
+	outline: 2px solid var(--gray);
+	cursor: pointer;
 }
