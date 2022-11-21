@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/apexlegends/static/css/main.c2419fef.css",
-    "main.js": "/apexlegends/static/js/main.82bde66a.js",
+    "main.css": "/apexlegends/static/css/main.7799e04a.css",
+    "main.js": "/apexlegends/static/js/main.42e18937.js",
     "static/js/787.0c097ad6.chunk.js": "/apexlegends/static/js/787.0c097ad6.chunk.js",
     "static/media/revenant.png": "/apexlegends/static/media/revenant.603a422d62c1f6f98d7e.png",
     "static/media/maggie.png": "/apexlegends/static/media/maggie.2e027d3bdeb7ea0356e3.png",
@@ -34,12 +34,12 @@
     "static/media/apex_nav_logo.svg": "/apexlegends/static/media/apex_nav_logo.dc669086fc967f9aa9385c91b0369107.svg",
     "static/media/apex-white-icon.svg": "/apexlegends/static/media/apex-white-icon.07c3f6cbc8de4da7040fac1d390b9483.svg",
     "index.html": "/apexlegends/index.html",
-    "main.c2419fef.css.map": "/apexlegends/static/css/main.c2419fef.css.map",
-    "main.82bde66a.js.map": "/apexlegends/static/js/main.82bde66a.js.map",
+    "main.7799e04a.css.map": "/apexlegends/static/css/main.7799e04a.css.map",
+    "main.42e18937.js.map": "/apexlegends/static/js/main.42e18937.js.map",
     "787.0c097ad6.chunk.js.map": "/apexlegends/static/js/787.0c097ad6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2419fef.css",
-    "static/js/main.82bde66a.js"
+    "static/css/main.7799e04a.css",
+    "static/js/main.42e18937.js"
   ]
 }
