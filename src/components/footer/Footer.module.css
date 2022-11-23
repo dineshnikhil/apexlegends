@@ -40,12 +40,14 @@
 	font-size: 1.4rem;
 	margin-left: 12%;
 	color: var(--milk_white);
+	display: inline-block;
 
 	transition: 0.3s ease-in-out;
 }
 
 .nav_first_one_two a:hover {
-	font-size: 1.7rem;
+	/* font-size: 1.7rem; */
+	transform: scale(1.25);
 }
 
 .nav_first_two {

@@ -14,8 +14,8 @@ function App() {
 			<Nav />
 			<main>
 				<Routes>
-					<Route path="apexlegends/" element={<Legends />} />
-					<Route path="apexlegends/legend/:id" element={<Legend />} />
+					<Route path="/apexlegends" element={<Legends />} />
+					<Route path="/legend/:id" element={<Legend />} />
 				</Routes>
 			</main>
 			<Footer />
