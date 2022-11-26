@@ -25,12 +25,14 @@
 	height: auto;
 }
 
-.legend_card button {
+.nav_link {
 	background-color: transparent;
-	width: 3rem;
-	height: 3rem;
+	width: 1.6rem;
+	height: 1.6rem;
 	border: 2px solid var(--black);
+	color: var(--black);
 	border-radius: 50%;
+	display: inline-block;
 
 	font-size: 1.4rem;
 	margin-top: 3%;
@@ -38,11 +40,11 @@
 	transition: 0.3s ease-in-out;
 }
 
-.legend_card button:hover {
+.nav_link:hover {
 	/* color: red; */
 	cursor: pointer;
 	/* width: 4rem;
 	height: 4rem; */
 	transform: scale(1.25);
-	font-size: 1.6rem;
+	/* font-size: 1.6rem; */
 }

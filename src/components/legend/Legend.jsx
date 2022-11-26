@@ -2,6 +2,11 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import classes from './Legend.module.css';
 
+import LegendCard from '../legends/LegendCard';
+
+// importing the bg for ability
+import bg from '../../assets/images/backgrounds/bg-legends.jpg';
+
 // importing the character card images.
 import bangalore from '../../assets/images/legends_cards/bangalore.png';
 import bloodhound from '../../assets/images/legends_cards/bloodhound.png';
@@ -52,6 +57,81 @@ import wattson_full from '../../assets/images/legends_character/wattson.jpg';
 import wraith_full from '../../assets/images/legends_character/wraith.jpg';
 import crypto_full from '../../assets/images/legends_character/crypto.jpg';
 
+// ability one imports
+import bangalore_ability_one from '../../assets/images/legends_character/characters_abilities/bangalore/one.png';
+import bloodhound_ability_one from '../../assets/images/legends_character/characters_abilities/bloodhound/one.png';
+import catalyst_ability_one from '../../assets/images/legends_character/characters_abilities/catalyst/one.png';
+import caustic_ability_one from '../../assets/images/legends_character/characters_abilities/caustic/one.png';
+import fuse_ability_one from '../../assets/images/legends_character/characters_abilities/fuse/one.png';
+import ash_ability_one from '../../assets/images/legends_character/characters_abilities/ash/one.png';
+import gibraltar_ability_one from '../../assets/images/legends_character/characters_abilities/gibraltor/one.png';
+import horizon_ability_one from '../../assets/images/legends_character/characters_abilities/horizon/one.png';
+import lifeline_ability_one from '../../assets/images/legends_character/characters_abilities/lifeline/one.png';
+import loba_ability_one from '../../assets/images/legends_character/characters_abilities/loba/one.png';
+import maggie_ability_one from '../../assets/images/legends_character/characters_abilities/madmaggie/one.png';
+import mirage_ability_one from '../../assets/images/legends_character/characters_abilities/mirage/one.png';
+import newcastle_ability_one from '../../assets/images/legends_character/characters_abilities/newcastle/one.png';
+import octane_ability_one from '../../assets/images/legends_character/characters_abilities/octane/one.png';
+import pathfinder_ability_one from '../../assets/images/legends_character/characters_abilities/pathfinder/one.png';
+import rampart_ability_one from '../../assets/images/legends_character/characters_abilities/rampart/one.png';
+import revenant_ability_one from '../../assets/images/legends_character/characters_abilities/revenant/one.png';
+import seer_ability_one from '../../assets/images/legends_character/characters_abilities/seer/one.png';
+import valkyrie_ability_one from '../../assets/images/legends_character/characters_abilities/valkyrie/one.png';
+import vantage_ability_one from '../../assets/images/legends_character/characters_abilities/vantage/one.png';
+import wattson_ability_one from '../../assets/images/legends_character/characters_abilities/wattson/one.png';
+import wraith_ability_one from '../../assets/images/legends_character/characters_abilities/wraith/one.png';
+import crypto_ability_one from '../../assets/images/legends_character/characters_abilities/crypto/one.png';
+
+// ability two imports
+import bangalore_ability_two from '../../assets/images/legends_character/characters_abilities/bangalore/two.png';
+import bloodhound_ability_two from '../../assets/images/legends_character/characters_abilities/bloodhound/two.png';
+import catalyst_ability_two from '../../assets/images/legends_character/characters_abilities/catalyst/two.png';
+import caustic_ability_two from '../../assets/images/legends_character/characters_abilities/caustic/two.png';
+import fuse_ability_two from '../../assets/images/legends_character/characters_abilities/fuse/two.png';
+import ash_ability_two from '../../assets/images/legends_character/characters_abilities/ash/two.png';
+import gibraltar_ability_two from '../../assets/images/legends_character/characters_abilities/gibraltor/two.png';
+import horizon_ability_two from '../../assets/images/legends_character/characters_abilities/horizon/two.png';
+import lifeline_ability_two from '../../assets/images/legends_character/characters_abilities/lifeline/two.png';
+import loba_ability_two from '../../assets/images/legends_character/characters_abilities/loba/two.png';
+import maggie_ability_two from '../../assets/images/legends_character/characters_abilities/madmaggie/two.png';
+import mirage_ability_two from '../../assets/images/legends_character/characters_abilities/mirage/two.png';
+import newcastle_ability_two from '../../assets/images/legends_character/characters_abilities/newcastle/two.png';
+import octane_ability_two from '../../assets/images/legends_character/characters_abilities/octane/two.png';
+import pathfinder_ability_two from '../../assets/images/legends_character/characters_abilities/pathfinder/two.png';
+import rampart_ability_two from '../../assets/images/legends_character/characters_abilities/rampart/two.png';
+import revenant_ability_two from '../../assets/images/legends_character/characters_abilities/revenant/two.png';
+import seer_ability_two from '../../assets/images/legends_character/characters_abilities/seer/two.png';
+import valkyrie_ability_two from '../../assets/images/legends_character/characters_abilities/valkyrie/two.png';
+import vantage_ability_two from '../../assets/images/legends_character/characters_abilities/vantage/two.png';
+import wattson_ability_two from '../../assets/images/legends_character/characters_abilities/wattson/two.png';
+import wraith_ability_two from '../../assets/images/legends_character/characters_abilities/wraith/two.png';
+import crypto_ability_two from '../../assets/images/legends_character/characters_abilities/crypto/two.png';
+
+// ability three imports
+import bangalore_ability_three from '../../assets/images/legends_character/characters_abilities/bangalore/three.png';
+import bloodhound_ability_three from '../../assets/images/legends_character/characters_abilities/bloodhound/three.png';
+import catalyst_ability_three from '../../assets/images/legends_character/characters_abilities/catalyst/three.png';
+import caustic_ability_three from '../../assets/images/legends_character/characters_abilities/caustic/three.png';
+import fuse_ability_three from '../../assets/images/legends_character/characters_abilities/fuse/three.png';
+import ash_ability_three from '../../assets/images/legends_character/characters_abilities/ash/three.png';
+import gibraltar_ability_three from '../../assets/images/legends_character/characters_abilities/gibraltor/three.png';
+import horizon_ability_three from '../../assets/images/legends_character/characters_abilities/horizon/three.png';
+import lifeline_ability_three from '../../assets/images/legends_character/characters_abilities/lifeline/three.png';
+import loba_ability_three from '../../assets/images/legends_character/characters_abilities/loba/three.png';
+import maggie_ability_three from '../../assets/images/legends_character/characters_abilities/madmaggie/three.png';
+import mirage_ability_three from '../../assets/images/legends_character/characters_abilities/mirage/three.png';
+import newcastle_ability_three from '../../assets/images/legends_character/characters_abilities/newcastle/three.png';
+import octane_ability_three from '../../assets/images/legends_character/characters_abilities/octane/three.png';
+import pathfinder_ability_three from '../../assets/images/legends_character/characters_abilities/pathfinder/three.png';
+import rampart_ability_three from '../../assets/images/legends_character/characters_abilities/rampart/three.png';
+import revenant_ability_three from '../../assets/images/legends_character/characters_abilities/revenant/three.png';
+import seer_ability_three from '../../assets/images/legends_character/characters_abilities/seer/three.png';
+import valkyrie_ability_three from '../../assets/images/legends_character/characters_abilities/valkyrie/three.png';
+import vantage_ability_three from '../../assets/images/legends_character/characters_abilities/vantage/three.png';
+import wattson_ability_three from '../../assets/images/legends_character/characters_abilities/wattson/three.png';
+import wraith_ability_three from '../../assets/images/legends_character/characters_abilities/wraith/three.png';
+import crypto_ability_three from '../../assets/images/legends_character/characters_abilities/crypto/three.png';
+
 function Legend() {
 	var legends = [
 		{
@@ -69,9 +149,9 @@ function Legend() {
 			ultimate_ability: 'Phase Breach',
 			card_img: ash,
 			full_img: ash_full,
-			// tractical_ability_img: ash - one,
-			// passive_ability_img: ash - two,
-			// ultimate_ability_img: ash - three,
+			tractical_ability_img: ash_ability_one,
+			passive_ability_img: ash_ability_two,
+			ultimate_ability_img: ash_ability_three,
 		},
 		{
 			id: 2,
@@ -88,9 +168,9 @@ function Legend() {
 			ultimate_ability: 'Rolling Thunder',
 			card_img: bangalore,
 			full_img: bangalore_full,
-			// tractical_ability_img: bangalore - one,
-			// passive_ability_img: bangalore - two,
-			// ultimate_ability_img: bangalore - three,
+			tractical_ability_img: bangalore_ability_one,
+			passive_ability_img: bangalore_ability_two,
+			ultimate_ability_img: bangalore_ability_three,
 		},
 		{
 			id: 3,
@@ -107,9 +187,9 @@ function Legend() {
 			ultimate_ability: 'Beast of the Hunt',
 			card_img: bloodhound,
 			full_img: bloodhound_full,
-			// tractical_ability_img: bloodhound - one,
-			// passive_ability_img: bloodhound - two,
-			// ultimate_ability_img: bloodhound - three,
+			tractical_ability_img: bloodhound_ability_one,
+			passive_ability_img: bloodhound_ability_two,
+			ultimate_ability_img: bloodhound_ability_three,
 		},
 		{
 			id: 4,
@@ -126,9 +206,9 @@ function Legend() {
 			ultimate_ability: 'Dark Veil',
 			card_img: catalyst,
 			full_img: catalyst_full,
-			// tractical_ability_img: catalyst - one,
-			// passive_ability_img: catalyst - two,
-			// ultimate_ability_img: catalyst - three,
+			tractical_ability_img: catalyst_ability_one,
+			passive_ability_img: catalyst_ability_two,
+			ultimate_ability_img: catalyst_ability_three,
 		},
 		{
 			id: 5,
@@ -145,9 +225,9 @@ function Legend() {
 			ultimate_ability: 'Nox Gas Grenade',
 			card_img: caustic,
 			full_img: caustic_full,
-			// tractical_ability_img: caustic - one,
-			// passive_ability_img: caustic - two,
-			// ultimate_ability_img: caustic - three,
+			tractical_ability_img: caustic_ability_one,
+			passive_ability_img: caustic_ability_two,
+			ultimate_ability_img: caustic_ability_three,
 		},
 		{
 			id: 6,
@@ -164,9 +244,9 @@ function Legend() {
 			ultimate_ability: 'Drone EMP',
 			card_img: crypto,
 			full_img: crypto_full,
-			// tractical_ability_img: crypto - one,
-			// passive_ability_img: crypto - two,
-			// ultimate_ability_img: crypto - three,
+			tractical_ability_img: crypto_ability_one,
+			passive_ability_img: crypto_ability_two,
+			ultimate_ability_img: crypto_ability_three,
 		},
 		{
 			id: 7,
@@ -183,9 +263,9 @@ function Legend() {
 			ultimate_ability: 'The Motherlode',
 			card_img: fuse,
 			full_img: fuse_full,
-			// tractical_ability_img: fuse - one,
-			// passive_ability_img: fuse - two,
-			// ultimate_ability_img: fuse - three,
+			tractical_ability_img: fuse_ability_one,
+			passive_ability_img: fuse_ability_two,
+			ultimate_ability_img: fuse_ability_three,
 		},
 		{
 			id: 8,
@@ -202,9 +282,9 @@ function Legend() {
 			ultimate_ability: 'Defensive Bombardment',
 			card_img: gibraltar,
 			full_img: gibraltar_full,
-			// tractical_ability_img: gibraltar - one,
-			// passive_ability_img: gibraltar - two,
-			// ultimate_ability_img: gibraltar - three,
+			tractical_ability_img: gibraltar_ability_one,
+			passive_ability_img: gibraltar_ability_two,
+			ultimate_ability_img: gibraltar_ability_three,
 		},
 		{
 			id: 9,
@@ -221,9 +301,9 @@ function Legend() {
 			ultimate_ability: 'Black Hole',
 			card_img: horizon,
 			full_img: horizon_full,
-			// tractical_ability_img: horizon - one,
-			// passive_ability_img: horizon - two,
-			// ultimate_ability_img: horizon - three,
+			tractical_ability_img: horizon_ability_one,
+			passive_ability_img: horizon_ability_two,
+			ultimate_ability_img: horizon_ability_three,
 		},
 		{
 			id: 10,
@@ -240,9 +320,9 @@ function Legend() {
 			ultimate_ability: 'Care Package',
 			card_img: lifeline,
 			full_img: lifeline_full,
-			// tractical_ability_img: lifeline - one,
-			// passive_ability_img: lifeline - two,
-			// ultimate_ability_img: lifeline - three,
+			tractical_ability_img: lifeline_ability_one,
+			passive_ability_img: lifeline_ability_two,
+			ultimate_ability_img: lifeline_ability_three,
 		},
 		{
 			id: 11,
@@ -259,9 +339,9 @@ function Legend() {
 			ultimate_ability: 'Black Market Boutique',
 			card_img: loba,
 			full_img: loba_full,
-			// tractical_ability_img: loba - one,
-			// passive_ability_img: loba - two,
-			// ultimate_ability_img: loba - three,
+			tractical_ability_img: loba_ability_one,
+			passive_ability_img: loba_ability_two,
+			ultimate_ability_img: loba_ability_three,
 		},
 		{
 			id: 12,
@@ -279,9 +359,9 @@ function Legend() {
 			ultimate_ability: 'Life of the Party',
 			card_img: mirage,
 			full_img: mirage_full,
-			// tractical_ability_img: mirage - one,
-			// passive_ability_img: mirage - two,
-			// ultimate_ability_img: mirage - three,
+			tractical_ability_img: mirage_ability_one,
+			passive_ability_img: mirage_ability_two,
+			ultimate_ability_img: mirage_ability_three,
 		},
 		{
 			id: 13,
@@ -298,9 +378,9 @@ function Legend() {
 			ultimate_ability: 'WRECKING BALL',
 			card_img: maggie,
 			full_img: maggie_full,
-			// tractical_ability_img: maggie - one,
-			// passive_ability_img: maggie - two,
-			// ultimate_ability_img: maggie - three,
+			tractical_ability_img: maggie_ability_one,
+			passive_ability_img: maggie_ability_two,
+			ultimate_ability_img: maggie_ability_three,
 		},
 		{
 			id: 14,
@@ -317,9 +397,9 @@ function Legend() {
 			ultimate_ability: 'Launch Pad',
 			card_img: octane,
 			full_img: octane_full,
-			// tractical_ability_img: octane - one,
-			// passive_ability_img: octane - two,
-			// ultimate_ability_img: octane - three,
+			tractical_ability_img: octane_ability_one,
+			passive_ability_img: octane_ability_two,
+			ultimate_ability_img: octane_ability_three,
 		},
 		{
 			id: 15,
@@ -336,9 +416,9 @@ function Legend() {
 			ultimate_ability: 'Castle Wall',
 			card_img: newcastle,
 			full_img: newcastle_full,
-			// tractical_ability_img: newcastle - one,
-			// passive_ability_img: newcastle - two,
-			// ultimate_ability_img: newcastle - three,
+			tractical_ability_img: newcastle_ability_one,
+			passive_ability_img: newcastle_ability_two,
+			ultimate_ability_img: newcastle_ability_three,
 		},
 		{
 			id: 16,
@@ -355,9 +435,9 @@ function Legend() {
 			ultimate_ability: 'Zipline Gun',
 			card_img: pathfinder,
 			full_img: pathfinder_full,
-			// tractical_ability_img: pathfinder - one,
-			// passive_ability_img: pathfinder - two,
-			// ultimate_ability_img: pathfinder - three,
+			tractical_ability_img: pathfinder_ability_one,
+			passive_ability_img: pathfinder_ability_two,
+			ultimate_ability_img: pathfinder_ability_three,
 		},
 		{
 			id: 17,
@@ -375,9 +455,9 @@ function Legend() {
 			ultimate_ability: 'Emplaced Minigun “Sheila”',
 			card_img: rampart,
 			full_img: rampart_full,
-			// tractical_ability_img: rampart - one,
-			// passive_ability_img: rampart - two,
-			// ultimate_ability_img: rampart - three,
+			tractical_ability_img: rampart_ability_one,
+			passive_ability_img: rampart_ability_two,
+			ultimate_ability_img: rampart_ability_three,
 		},
 		{
 			id: 18,
@@ -395,9 +475,9 @@ function Legend() {
 			ultimate_ability: 'Death Totem',
 			card_img: revenant,
 			full_img: revenant_full,
-			// tractical_ability_img: revenant - one,
-			// passive_ability_img: revenant - two,
-			// ultimate_ability_img: revenant - three,
+			tractical_ability_img: revenant_ability_one,
+			passive_ability_img: revenant_ability_two,
+			ultimate_ability_img: revenant_ability_three,
 		},
 		{
 			id: 19,
@@ -414,9 +494,9 @@ function Legend() {
 			ultimate_ability: 'Exhibit',
 			card_img: seer,
 			full_img: seer_full,
-			// tractical_ability_img: seer - one,
-			// passive_ability_img: seer - two,
-			// ultimate_ability_img: seer - three,
+			tractical_ability_img: seer_ability_one,
+			passive_ability_img: seer_ability_two,
+			ultimate_ability_img: seer_ability_three,
 		},
 		{
 			id: 20,
@@ -433,9 +513,9 @@ function Legend() {
 			ultimate_ability: 'Skyward Dive',
 			card_img: valkyrie,
 			full_img: valkyrie_full,
-			// tractical_ability_img: valkyrie - one,
-			// passive_ability_img: valkyrie - two,
-			// ultimate_ability_img: valkyrie - three,
+			tractical_ability_img: valkyrie_ability_one,
+			passive_ability_img: valkyrie_ability_two,
+			ultimate_ability_img: valkyrie_ability_three,
 		},
 		{
 			id: 21,
@@ -453,9 +533,9 @@ function Legend() {
 			ultimate_ability: 'Snipers Mark',
 			card_img: vantage,
 			full_img: vantage_full,
-			// tractical_ability_img: vantage - one,
-			// passive_ability_img: vantage - two,
-			// ultimate_ability_img: vantage - three,
+			tractical_ability_img: vantage_ability_one,
+			passive_ability_img: vantage_ability_two,
+			ultimate_ability_img: vantage_ability_three,
 		},
 		{
 			id: 22,
@@ -472,9 +552,9 @@ function Legend() {
 			ultimate_ability: 'Interception Pylon',
 			card_img: wattson,
 			full_img: wattson_full,
-			// tractical_ability_img: wattson - one,
-			// passive_ability_img: wattson - two,
-			// ultimate_ability_img: wattson - three,
+			tractical_ability_img: wattson_ability_one,
+			passive_ability_img: wattson_ability_two,
+			ultimate_ability_img: wattson_ability_three,
 		},
 		{
 			id: 23,
@@ -492,29 +572,117 @@ function Legend() {
 			ultimate_ability: 'Dimensional Rift',
 			card_img: wraith,
 			full_img: wraith_full,
-			// tractical_ability_img: wraith - one,
-			// passive_ability_img: wraith - two,
-			// ultimate_ability_img: wraith - three,
+			tractical_ability_img: wraith_ability_one,
+			passive_ability_img: wraith_ability_two,
+			ultimate_ability_img: wraith_ability_three,
 		},
 	];
 	var parm = useParams();
+	var random_num = Math.floor(Math.random() * 23 + 1);
+	var random_num_2 = Math.floor(Math.random() * 23 + 1);
+	var random_num_3 = Math.floor(Math.random() * 23 + 1);
+	var random_legned = legends.filter((legend) => {
+		return legend.id == random_num;
+	});
+	var random_legned_2 = legends.filter((legend) => {
+		return legend.id == random_num_2;
+	});
+	var random_legned_3 = legends.filter((legend) => {
+		return legend.id == random_num_3;
+	});
 	var i_needed_legend = legends.filter((legend) => {
 		return legend.id == parm.id;
 	});
-	var my_style = {
+	var my_style_1 = {
 		backgroundImage: `url(${i_needed_legend[0].full_img})`,
 		backgroundRepeat: 'no-repeat',
+		// backgroundPosition: 'left 15% bottom 100%',
+		backgroundSize: '150% auto',
+		// backgroundPosition: 'center center',
+	};
+	var my_style_2 = {
+		backgroundImage: `url(${bg})`,
+		backgroundRepeat: 'no-repeat',
+		// backgroundPosition: 'left 15% bottom 100%',
+		backgroundSize: '100% auto',
+		backgroundPosition: 'center center',
 	};
 	return (
-		<div style={my_style} className={classes.legend_div}>
-			<div>
-				{/* <img src={i_needed_legend[0].full_img} alt="legend image" /> */}
+		<div>
+			<div className={classes.legend_div}>
+				<div style={my_style_1} className={classes.legend_div_img}>
+					{/* <img src={i_needed_legend[0].full_img} alt="legend image" /> */}
+				</div>
+				<div className={classes.legend_div_info}>
+					<h4>"{i_needed_legend[0].tagline}"</h4>
+					<h1>{i_needed_legend[0].name}</h1>
+					<h3>{i_needed_legend[0].type}</h3>
+					<p>{i_needed_legend[0].intro}</p>
+
+					<div className={classes.table_form_info_div}>
+						<div className={classes.table_form_info_div_child}>
+							<h2>Real Name</h2>
+							<h3>{i_needed_legend[0].real_name}</h3>
+						</div>
+						<div className={classes.table_form_info_div_child}>
+							<h2>Age</h2>
+							<h3>{i_needed_legend[0].age}</h3>
+						</div>
+						<div className={classes.table_form_info_div_child}>
+							<h2>Home World</h2>
+							<h3>{i_needed_legend[0].home_world}</h3>
+						</div>
+						<div className={classes.table_form_info_div_child}>
+							<h2>Tatical Ability</h2>
+							<h3>{i_needed_legend[0].tactical_ability}</h3>
+						</div>
+						<div className={classes.table_form_info_div_child}>
+							<h2>Passive Ability</h2>
+							<h3>{i_needed_legend[0].passive_ability}</h3>
+						</div>
+						<div className={classes.table_form_info_div_child}>
+							<h2>Ultimate Ability</h2>
+							<h3>{i_needed_legend[0].ultimate_ability}</h3>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div>
-				<h4>{i_needed_legend[0].tagline}</h4>
-				<h1>{i_needed_legend[0].name}</h1>
-				<h3>{i_needed_legend[0].type}</h3>
-				<p>{i_needed_legend[0].intro}</p>
+			<div style={my_style_2} className={classes.ability_div}>
+				<div className={classes.ability_div_child}>
+					<img
+						src={i_needed_legend[0].tractical_ability_img}
+						alt="tactical ability image"
+					/>
+					<h2>Tactical Ability</h2>
+					<h3>{i_needed_legend[0].tactical_ability}</h3>
+				</div>
+				<div className={classes.ability_div_child}>
+					<img
+						src={i_needed_legend[0].passive_ability_img}
+						alt="tactical ability image"
+					/>
+					<h2>Passive Ability</h2>
+					<h3>{i_needed_legend[0].passive_ability}</h3>
+				</div>
+				<div className={classes.ability_div_child}>
+					<img
+						src={i_needed_legend[0].ultimate_ability_img}
+						alt="tactical ability image"
+					/>
+					<h2>Ultimate Ability</h2>
+					<h3>{i_needed_legend[0].ultimate_ability}</h3>
+				</div>
+			</div>
+			<div className={classes.random_suggestion_legends}>
+				{random_legned.map((obj) => (
+					<LegendCard legend={obj} key={obj.id} />
+				))}
+				{random_legned_2.map((obj) => (
+					<LegendCard legend={obj} key={obj.id} />
+				))}
+				{random_legned_3.map((obj) => (
+					<LegendCard legend={obj} key={obj.id} />
+				))}
 			</div>
 		</div>
 	);
