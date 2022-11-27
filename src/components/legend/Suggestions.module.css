@@ -1,0 +1,6 @@
+.random_suggestion_legends {
+	display: flex;
+	justify-content: space-around;
+
+	padding: 3% 8%;
+}

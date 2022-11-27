@@ -58,7 +58,7 @@
 	height: auto;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	padding: 5% 0;
+	padding: 8% 0;
 }
 
 .ability_div_child {
