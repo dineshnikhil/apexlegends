@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/apexlegends/static/css/main.a0ee1ae5.css",
-    "main.js": "/apexlegends/static/js/main.a55b08c6.js",
+    "main.css": "/apexlegends/static/css/main.a5db49fa.css",
+    "main.js": "/apexlegends/static/js/main.d844ddda.js",
     "static/js/787.0c097ad6.chunk.js": "/apexlegends/static/js/787.0c097ad6.chunk.js",
     "static/media/vantage.jpg": "/apexlegends/static/media/vantage.f769604e4dfcf89d7c85.jpg",
     "static/media/newcastle.jpg": "/apexlegends/static/media/newcastle.c4ac1e004edab74442e1.jpg",
@@ -10,6 +10,7 @@
     "static/media/revenant.png": "/apexlegends/static/media/revenant.603a422d62c1f6f98d7e.png",
     "static/media/maggie.png": "/apexlegends/static/media/maggie.2e027d3bdeb7ea0356e3.png",
     "static/media/catalyst.png": "/apexlegends/static/media/catalyst.cf4122d02b19c569d6f7.png",
+    "static/media/bg-legends.jpg": "/apexlegends/static/media/bg-legends.3a8f3eee7e192b3b210a.jpg",
     "static/media/rampart.jpg": "/apexlegends/static/media/rampart.cf745f7c53d902bc55fb.jpg",
     "static/media/loba.jpg": "/apexlegends/static/media/loba.138269086fe7c514aed8.jpg",
     "static/media/wattson.jpg": "/apexlegends/static/media/wattson.2f39ddfb3ef1f418a5c4.jpg",
@@ -41,7 +42,7 @@
     "static/media/loba.png": "/apexlegends/static/media/loba.fd8592fedea8a03a41cb.png",
     "static/media/lifeline.png": "/apexlegends/static/media/lifeline.f50f47e947e1dcd16bc5.png",
     "static/media/wraith.png": "/apexlegends/static/media/wraith.50586f295966ce76c449.png",
-    "static/media/one.png": "/apexlegends/static/media/one.5d0cee10b623eff5ef21.png",
+    "static/media/one.png": "/apexlegends/static/media/one.11f1dbda905fe4c3597d.png",
     "static/media/gibraltar.jpg": "/apexlegends/static/media/gibraltar.e081b65f6da83732d5e6.jpg",
     "static/media/lifeline.jpg": "/apexlegends/static/media/lifeline.5c2040178fbef4374d95.jpg",
     "static/media/fuse.jpg": "/apexlegends/static/media/fuse.7207f723d32a87e91eb3.jpg",
@@ -51,18 +52,20 @@
     "static/media/crypto.jpg": "/apexlegends/static/media/crypto.38fdd5e371836a8ceb50.jpg",
     "static/media/bangalore.jpg": "/apexlegends/static/media/bangalore.03e970494b72506dd41b.jpg",
     "static/media/apex-esrb.svg": "/apexlegends/static/media/apex-esrb.8ed53b71115be4fcdf9e51049a02a853.svg",
+    "static/media/three.png": "/apexlegends/static/media/three.1c7fdbaa29488df7833d.png",
     "static/media/apex-global-series.svg": "/apexlegends/static/media/apex-global-series.60c05e0549a03ed41fe9a59e29c499f3.svg",
+    "static/media/two.png": "/apexlegends/static/media/two.782d9844cfb2d2756220.png",
     "static/media/ea-ring.png": "/apexlegends/static/media/ea-ring.c957d708c2e16033ff10.png",
     "static/media/apex-mobile.svg": "/apexlegends/static/media/apex-mobile.1e681deb2ea8cfce59d2f95972708a96.svg",
     "static/media/apex_nav_logo.svg": "/apexlegends/static/media/apex_nav_logo.dc669086fc967f9aa9385c91b0369107.svg",
     "static/media/apex-white-icon.svg": "/apexlegends/static/media/apex-white-icon.07c3f6cbc8de4da7040fac1d390b9483.svg",
     "index.html": "/apexlegends/index.html",
-    "main.a0ee1ae5.css.map": "/apexlegends/static/css/main.a0ee1ae5.css.map",
-    "main.a55b08c6.js.map": "/apexlegends/static/js/main.a55b08c6.js.map",
+    "main.a5db49fa.css.map": "/apexlegends/static/css/main.a5db49fa.css.map",
+    "main.d844ddda.js.map": "/apexlegends/static/js/main.d844ddda.js.map",
     "787.0c097ad6.chunk.js.map": "/apexlegends/static/js/787.0c097ad6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0ee1ae5.css",
-    "static/js/main.a55b08c6.js"
+    "static/css/main.a5db49fa.css",
+    "static/js/main.d844ddda.js"
   ]
 }
