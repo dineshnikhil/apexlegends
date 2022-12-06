@@ -140,3 +140,21 @@
 	outline: 2px solid var(--gray);
 	cursor: pointer;
 }
+
+/* ================ for the mobile view ==================== */
+
+@media (min-width: 320px) and (max-width: 425px) {
+	.nav_first_one {
+		display: block;
+	}
+	.nav_first_one_one {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.nav_first_one_two {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+}

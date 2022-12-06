@@ -48,3 +48,18 @@
 	transform: scale(1.25);
 	/* font-size: 1.6rem; */
 }
+
+/* ============ for mobile version ui ============ */
+
+@media (min-width: 320px) and (max-width: 425px) {
+	/* ========= changing to the legends cards ============= */
+	.legend_card {
+		width: 100%;
+		margin: 5% 0%;
+	}
+
+	legend_card img {
+		width: 100%;
+		height: auto;
+	}
+}

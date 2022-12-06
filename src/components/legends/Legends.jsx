@@ -6,6 +6,7 @@ import { legends } from '../legend/legends';
 
 // images imports
 import apex_second_logo from '../../assets/images/logos/apex-white-icon.svg';
+import GeneralButton from '../buttons/GeneralButton';
 
 function Legends() {
 	return (
@@ -23,6 +24,19 @@ function Legends() {
 				{legends.map((obj) => (
 					<LegendCard legend={obj} key={obj.id} />
 				))}
+			</div>
+			<div className={classes.play_info}>
+				<h1>PLAY FOR FREE*</h1>
+				<p>
+					On PlayStation®4, PlayStation®5, Xbox One, Xbox Series X|S, Nintendo
+					Switch, and PC via EA app and Steam.
+				</p>
+				<GeneralButton content="PLAY FREE NOW" />
+				<p>
+					*Applicable platform account and platform subscription (sold
+					separately) may be required. Persistent internet connection and EA
+					account required. Age restrictions apply. Includes in-game purchases.
+				</p>
 			</div>
 		</div>
 	);

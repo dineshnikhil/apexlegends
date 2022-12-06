@@ -1,0 +1,19 @@
+.general_button {
+	border: 2.3px solid var(--milk_white);
+	outline: 2.3px solid transparent;
+	border-radius: 4px;
+	color: var(--milk_white);
+	background-color: transparent;
+	font-size: 1.2rem;
+
+	padding: 1% 2%;
+	transition: 0.01s ease-in-out;
+}
+
+.general_button:hover {
+	border: 2.3px solid transparent;
+	outline: 2.3px solid var(--milk_white);
+	outline-offset: 2px;
+	cursor: pointer;
+	border-radius: 2px;
+}

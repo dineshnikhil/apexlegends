@@ -27,3 +27,17 @@
 	/* justify-content: space-around; */
 	margin-left: 2%;
 }
+
+@media (min-width: 320px) and (max-width: 425px) {
+	.nav_div {
+		padding: 0.8% 3%;
+	}
+	.nav_links_div {
+		display: none;
+	}
+
+	.nav_left_part img {
+		width: 15%;
+		height: auto;
+	}
+}
