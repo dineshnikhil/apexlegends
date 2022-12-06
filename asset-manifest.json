@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/apexlegends/static/css/main.a5db49fa.css",
-    "main.js": "/apexlegends/static/js/main.d844ddda.js",
+    "main.css": "/apexlegends/static/css/main.e5dcdb25.css",
+    "main.js": "/apexlegends/static/js/main.58255cba.js",
     "static/js/787.0c097ad6.chunk.js": "/apexlegends/static/js/787.0c097ad6.chunk.js",
     "static/media/vantage.jpg": "/apexlegends/static/media/vantage.f769604e4dfcf89d7c85.jpg",
     "static/media/newcastle.jpg": "/apexlegends/static/media/newcastle.c4ac1e004edab74442e1.jpg",
@@ -60,12 +60,12 @@
     "static/media/apex_nav_logo.svg": "/apexlegends/static/media/apex_nav_logo.dc669086fc967f9aa9385c91b0369107.svg",
     "static/media/apex-white-icon.svg": "/apexlegends/static/media/apex-white-icon.07c3f6cbc8de4da7040fac1d390b9483.svg",
     "index.html": "/apexlegends/index.html",
-    "main.a5db49fa.css.map": "/apexlegends/static/css/main.a5db49fa.css.map",
-    "main.d844ddda.js.map": "/apexlegends/static/js/main.d844ddda.js.map",
+    "main.e5dcdb25.css.map": "/apexlegends/static/css/main.e5dcdb25.css.map",
+    "main.58255cba.js.map": "/apexlegends/static/js/main.58255cba.js.map",
     "787.0c097ad6.chunk.js.map": "/apexlegends/static/js/787.0c097ad6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5db49fa.css",
-    "static/js/main.d844ddda.js"
+    "static/css/main.e5dcdb25.css",
+    "static/js/main.58255cba.js"
   ]
 }
