@@ -29,15 +29,26 @@
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
+	/* =========== nav main div padding ============ */
 	.nav_div {
-		padding: 0.8% 3%;
+		padding: 2% 3%;
 	}
+
+	/* ================== changing the width of the nav parts================== */
+	.nav_left_part {
+		width: 50%;
+	}
+	.nav_right_part {
+		width: 50%;
+	}
+
+	/* ============= nav left part changes ============= */
 	.nav_links_div {
 		display: none;
 	}
 
 	.nav_left_part img {
-		width: 15%;
+		width: 30%;
 		height: auto;
 	}
 }

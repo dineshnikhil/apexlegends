@@ -17,3 +17,12 @@
 	cursor: pointer;
 	border-radius: 2px;
 }
+
+/* ================= for the mobile version ================= */
+@media (min-width: 320px) and (max-width: 425px) {
+	.general_button {
+		width: 90%;
+		padding: 3% 1%;
+		margin-bottom: 10%;
+	}
+}
