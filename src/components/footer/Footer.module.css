@@ -92,11 +92,11 @@
 }
 
 .nav_second_two {
-	width: 65%;
+	width: 95%;
 	padding-left: 3%;
 }
 
-.nav_second_two a {
+.nav_second_two_one a {
 	text-decoration: none;
 	color: var(--gray);
 	font-size: 1.5rem;
@@ -109,6 +109,19 @@
 	font-weight: lighter;
 	color: var(--gray);
 	margin: 0;
+}
+
+.nav_second_two_one {
+	display: flex;
+	width: 100%;
+}
+
+.nav_second_two_one_one {
+	width: 60%;
+}
+
+.nav_second_two_one_two {
+	width: 40%;
 }
 
 .nav_second_two_two h3 {
@@ -126,7 +139,7 @@
 	width: 30%;
 }
 
-.nav_second_three button {
+.nav_second_two_one_two button {
 	padding: 4% 6%;
 	border: 2px solid var(--gray);
 	outline: 2px solid var(--footer_white);
@@ -135,7 +148,7 @@
 	transition: 0.3s ease-in-out;
 }
 
-.nav_second_three button:hover {
+.nav_second_two_one_two button:hover {
 	border: 4px solid var(--footer_white);
 	outline: 2px solid var(--gray);
 	cursor: pointer;
@@ -178,5 +191,49 @@
 
 	.nav_first_two {
 		border: none;
+	}
+
+	/* ================= changing the parent company logos ================= */
+	.nav_first_two {
+		display: block;
+	}
+
+	.nav_first_two_one {
+		margin: 0;
+	}
+
+	.nav_first_two_one img {
+		width: 80%;
+		height: auto;
+		margin-top: 9%;
+		display: block;
+	}
+
+	.nav_first_two_two {
+		margin-top: 5%;
+		width: 100%;
+	}
+
+	.nav_first_two_two img {
+		width: 100%;
+		height: auto;
+	}
+
+	/* ============= changing the nav secound div ================ */
+	.nav_second_div {
+		display: block;
+	}
+
+	.nav_second_two_one {
+		display: block;
+	}
+
+	.nav_second_one {
+		width: 100%;
+	}
+
+	.nav_second_one img {
+		width: 18%;
+		height: auto;
 	}
 }
