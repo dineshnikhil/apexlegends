@@ -4,3 +4,14 @@
 
 	padding: 3% 8%;
 }
+
+/* ================ for the mobile view ==================== */
+
+@media (min-width: 320px) and (max-width: 425px) {
+	.random_suggestion_legends {
+		display: block;
+		justify-content: space-around;
+
+		padding: 3% 8%;
+	}
+}

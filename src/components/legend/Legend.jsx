@@ -37,7 +37,7 @@ function Legend() {
 		backgroundImage: `url(${bg})`,
 		backgroundRepeat: 'no-repeat',
 		// backgroundPosition: 'left 15% bottom 100%',
-		backgroundSize: '100% auto',
+		backgroundSize: 'cover',
 		backgroundPosition: 'center center',
 	};
 	return (

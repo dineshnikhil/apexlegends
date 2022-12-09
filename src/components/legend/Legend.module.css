@@ -82,3 +82,26 @@
 	font-weight: 500;
 	margin: 0;
 }
+
+/* ================ for the mobile view ==================== */
+
+@media (min-width: 320px) and (max-width: 425px) {
+	.legend_div {
+		display: block;
+	}
+
+	/* ====== changing the image div height ===============*/
+	.legend_div_img {
+		/* width: 100%;
+		height: auto; */
+		height: 60vh;
+	}
+	/* ========= changing the ability div ============ */
+	.ability_div {
+		display: block;
+	}
+
+	.ability_div_child {
+		margin: 15% 0;
+	}
+}
