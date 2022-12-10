@@ -42,12 +42,11 @@ function Suggestions() {
 	}
 
 	var suggested_legends_array = suggest_legends();
-	console.log(suggested_legends_array);
 
 	return (
 		<div className={classes.random_suggestion_legends}>
 			{suggested_legends_array.map((obj) => (
-				<LegendCard legend={obj} key={obj.id} />
+				<LegendCard legend={obj} is_hide={true} key={obj.id} />
 			))}
 		</div>
 	);

@@ -159,6 +159,7 @@
 @media (min-width: 320px) and (max-width: 425px) {
 	.nav_first_one {
 		display: block;
+		padding: 0;
 	}
 	.nav_first_one_one {
 		width: 100%;
@@ -196,6 +197,7 @@
 	/* ================= changing the parent company logos ================= */
 	.nav_first_two {
 		display: block;
+		padding: 0;
 	}
 
 	.nav_first_two_one {
@@ -220,7 +222,15 @@
 	}
 
 	/* ============= changing the nav secound div ================ */
+
+	.nav_first_div {
+		background-color: var(--footer_black);
+		padding: 10% 6%;
+	}
+
 	.nav_second_div {
+		background-color: var(--footer_white);
+		padding: 10% 6%;
 		display: block;
 	}
 

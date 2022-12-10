@@ -104,4 +104,32 @@
 	.ability_div_child {
 		margin: 15% 0;
 	}
+
+	.table_form_info_div {
+		margin: 5% 0;
+	}
+
+	/* ====== changing the info table ================== */
+
+	.table_form_info_div_child {
+		padding: 3% 0;
+	}
+
+	/* ========== changing the info of the legends========== */
+	.legend_div_info h4 {
+		font-size: 1.1rem;
+	}
+
+	.legend_div_info h1 {
+		font-size: 2.5rem;
+	}
+
+	.legend_div_info h3 {
+		font-size: 1.3rem;
+	}
+
+	.legend_div_info p {
+		font-size: 1.2rem;
+		line-height: 2rem;
+	}
 }

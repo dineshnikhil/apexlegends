@@ -22,7 +22,7 @@ function Legends() {
 			</div>
 			<div className={classes.legends_home_cards_div}>
 				{legends.map((obj) => (
-					<LegendCard legend={obj} key={obj.id} />
+					<LegendCard legend={obj} is_hide={true} key={obj.id} />
 				))}
 			</div>
 			<div className={classes.play_info}>

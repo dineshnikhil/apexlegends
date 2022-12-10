@@ -117,7 +117,7 @@ function Legend() {
 					<LegendCard legend={obj} key={obj.id} />
 				))}
 			</div> */}
-			<Suggestions />
+			<Suggestions />/
 		</div>
 	);
 }
