@@ -1,8 +1,15 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import classes from './Legend.module.css';
 
-import LegendCard from '../legends/LegendCard';
+// importing the navigation icons
+import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+// importing the poster image
+import poster_img from '../../assets/images/backgrounds/bangalore.jpg';
 import { legends } from './legends';
 
 // importing the bg for ability
@@ -26,6 +33,12 @@ function Legend() {
 	var i_needed_legend = legends.filter((legend) => {
 		return legend.id == parm.id;
 	});
+
+	// ========
+	var left_one = parseInt(parm.id) - 1;
+	var right_one = parseInt(parm.id) + 1;
+	// ============
+
 	var my_style_1 = {
 		backgroundImage: `url(${i_needed_legend[0].full_img})`,
 		backgroundRepeat: 'no-repeat',
@@ -42,6 +55,22 @@ function Legend() {
 	};
 	return (
 		<div>
+			<div className={classes.poster_div}>
+				<div className={classes.navigate_div}>
+					<div className={classes.navigate_button}>
+						<NavLink className={classes.legend_nav_link} to="/apexlegends">
+							<FontAwesomeIcon icon={faChevronLeft} />
+							{legends[left_one].name}
+						</NavLink>
+					</div>
+					<div className={classes.navigate_button}>
+						<NavLink to="/apexlegends">
+							{legends[right_one].name}
+							<FontAwesomeIcon icon={faChevronRight} />
+						</NavLink>
+					</div>
+				</div>
+			</div>
 			<div className={classes.legend_div}>
 				<div style={my_style_1} className={classes.legend_div_img}>
 					{/* <img src={i_needed_legend[0].full_img} alt="legend image" /> */}

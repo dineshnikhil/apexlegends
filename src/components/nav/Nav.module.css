@@ -11,6 +11,10 @@
 	/* width: 95%; */
 }
 
+.nav_bars {
+	display: none;
+}
+
 .nav_left_part {
 	display: flex;
 	/* justify-content: space-between; */
@@ -31,7 +35,14 @@
 @media (min-width: 320px) and (max-width: 425px) {
 	/* =========== nav main div padding ============ */
 	.nav_div {
-		padding: 2% 3%;
+		padding: 4% 3%;
+	}
+
+	.nav_bars {
+		display: inline-block;
+		font-size: 1.8rem;
+		margin-right: 5%;
+		margin-top: 2%;
 	}
 
 	/* ================== changing the width of the nav parts================== */
@@ -48,7 +59,7 @@
 	}
 
 	.nav_left_part img {
-		width: 30%;
+		width: 20%;
 		height: auto;
 	}
 }

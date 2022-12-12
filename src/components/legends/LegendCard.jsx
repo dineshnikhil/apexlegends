@@ -12,21 +12,24 @@ function LegendCard(props) {
 		if (!props.is_hide) {
 			set_is_hide('none');
 		}
-	});
+	}, [props.is_hide]);
 	var my_style = {
 		display: `${is_hide}`,
 	};
 	return (
-		<div className={classes.legend_card}>
-			<img src={props.legend.card_img} alt="legend image" />
-			<h3>{props.legend.name}</h3>
-			<h4>{props.legend.type}</h4>
-			<div style={my_style}>
-				<NavLink className={classes.nav_link} to={'/legend/' + props.legend.id}>
+		<NavLink
+			className={classes.legend_page_link}
+			to={'/legend/' + props.legend.id}
+		>
+			<div className={classes.legend_card}>
+				<img src={props.legend.card_img} alt="full legend character." />
+				<h3>{props.legend.name}</h3>
+				<h4>{props.legend.type}</h4>
+				<div style={my_style} className={classes.nav_link}>
 					<FontAwesomeIcon icon={faArrowRight} />
-				</NavLink>
+				</div>
 			</div>
-		</div>
+		</NavLink>
 	);
 }
 

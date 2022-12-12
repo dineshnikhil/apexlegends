@@ -24,7 +24,7 @@ function Suggestions() {
 
 	function fillter_legends(id) {
 		var filltered_legend = legends.filter((legend) => {
-			return legend.id == id;
+			return legend.id === id;
 		});
 
 		return filltered_legend;
@@ -46,7 +46,7 @@ function Suggestions() {
 	return (
 		<div className={classes.random_suggestion_legends}>
 			{suggested_legends_array.map((obj) => (
-				<LegendCard legend={obj} is_hide={true} key={obj.id} />
+				<LegendCard legend={obj} is_hide={false} key={obj.id} />
 			))}
 		</div>
 	);

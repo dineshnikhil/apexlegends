@@ -1,5 +1,5 @@
 .legend_card {
-	width: 23%;
+	width: 100%;
 	text-align: center;
 	margin: 3% 1%;
 }
@@ -23,6 +23,13 @@
 .legend_card img {
 	width: 90%;
 	height: auto;
+}
+
+.legend_page_link {
+	width: 23%;
+	margin: 3% 0;
+	text-decoration: none;
+	color: var(--black);
 }
 
 .nav_link {
@@ -61,5 +68,12 @@
 	legend_card img {
 		width: 100%;
 		height: auto;
+	}
+
+	.legend_page_link {
+		width: 100%;
+		margin: 3% 0;
+		text-decoration: none;
+		color: var(--black);
 	}
 }
