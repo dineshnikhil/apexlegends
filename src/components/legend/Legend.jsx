@@ -38,17 +38,31 @@ function Legend() {
 	// === generating the left navigation number =====
 	function left_num() {
 		if (parseInt(parm.id) - 1 <= 0) {
+			return 22;
+		} else {
+			return parseInt(parm.id) - 2;
+		}
+	}
+	function left_nav_num() {
+		if (parm.id == 1) {
 			return 23;
 		} else {
-			return parseInt(parm.id);
+			return parseInt(parm.id) - 1;
 		}
 	}
 	// === generationg the right navigation number =======
 	function right_num() {
 		if (parseInt(parm.id) + 1 > 23) {
+			return 0;
+		} else {
+			return parseInt(parm.id) + 1 - 1;
+		}
+	}
+	function right_nav_num() {
+		if (parm.id == 23) {
 			return 1;
 		} else {
-			return parseInt(parm.id);
+			return parseInt(parm.id) + 1;
 		}
 	}
 
@@ -78,14 +92,17 @@ function Legend() {
 					<div className={classes.navigate_button}>
 						<NavLink
 							className={classes.legend_nav_link}
-							to={'/legend/' + (left_one - 1).toString()}
+							to={'/legend/' + left_nav_num().toString()}
 						>
 							<FontAwesomeIcon icon={faChevronLeft} />
 							{legends[left_one].name}
 						</NavLink>
 					</div>
 					<div className={classes.navigate_button}>
-						<NavLink to={'/legend/' + (right_one + 1).toString()}>
+						<NavLink
+							className={classes.legend_nav_link}
+							to={'/legend/' + right_nav_num().toString()}
+						>
 							{legends[right_one].name}
 							<FontAwesomeIcon icon={faChevronRight} />
 						</NavLink>
