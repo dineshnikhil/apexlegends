@@ -35,8 +35,26 @@ function Legend() {
 	});
 
 	// ========
-	var left_one = parseInt(parm.id) - 1;
-	var right_one = parseInt(parm.id) + 1;
+	// === generating the left navigation number =====
+	function left_num() {
+		if (parseInt(parm.id) - 1 <= 0) {
+			return 23;
+		} else {
+			return parseInt(parm.id);
+		}
+	}
+	// === generationg the right navigation number =======
+	function right_num() {
+		if (parseInt(parm.id) + 1 > 23) {
+			return 1;
+		} else {
+			return parseInt(parm.id);
+		}
+	}
+
+	var left_one = left_num();
+	var right_one = right_num();
+	console.log(left_one, right_one);
 	// ============
 
 	var my_style_1 = {
@@ -58,13 +76,16 @@ function Legend() {
 			<div className={classes.poster_div}>
 				<div className={classes.navigate_div}>
 					<div className={classes.navigate_button}>
-						<NavLink className={classes.legend_nav_link} to="/apexlegends">
+						<NavLink
+							className={classes.legend_nav_link}
+							to={'/legend/' + (left_one - 1).toString()}
+						>
 							<FontAwesomeIcon icon={faChevronLeft} />
 							{legends[left_one].name}
 						</NavLink>
 					</div>
 					<div className={classes.navigate_button}>
-						<NavLink to="/apexlegends">
+						<NavLink to={'/legend/' + (right_one + 1).toString()}>
 							{legends[right_one].name}
 							<FontAwesomeIcon icon={faChevronRight} />
 						</NavLink>
